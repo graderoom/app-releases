@@ -1,5 +1,26 @@
 # Changelog
 
+## [Beta M-0.1.0] - 2020-02-28
+### Added
+- Debug toasts can be enabled in settings
+- Logo and icon buttons now respond to theme changes
+- A non-functional menu button
+- Loading animation while sending requests to the server
+- Pull down to refresh on main screen<ul>
+- Checks login status
+- Gets any updated settings from the server
+- Gets any new grades that may have been synced on a different device</ul>
+
+### Improved
+- Main page now contains colored cards for each course
+- Main page now loads courses before sending request to sync with PowerSchool
+- Changing theme is now supported
+- Back button from the main screen no longer causes unintended app behavior
+- Pre-load screen now displays logo and is dark themed
+
+### Removed
+- Gradient around logo
+
 ## [Beta M-0.0.4] - 2020-01-27
 ### Added
 - Watermark over pages that don't work yet
